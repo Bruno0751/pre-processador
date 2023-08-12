@@ -15,6 +15,11 @@ npm run serve
 npm run build
 ```
 
+## Para rodar no build em si
+```
+npx http-server -o
+```
+
 ### Lints and fixes files
 ```
 npm run lint

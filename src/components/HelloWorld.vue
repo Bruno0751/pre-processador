@@ -39,20 +39,25 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style lang="scss">
+$color-anchor: #42b983;
+$display: inline-block;
+$margem: 40px 0 0;
+$margin2: 0 10px;
+$none: none;
+$padding: 0;
 h3 {
-  margin: 40px 0 0;
+  margin: $margem;
 }
 ul {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: $none;
+  padding: $padding;
 }
 li {
-  display: inline-block;
-  margin: 0 10px;
+  display: $display;
+  margin: $margin2;
 }
 a {
-  color: #42b983;
+  color: $color-anchor;
 }
 </style>
